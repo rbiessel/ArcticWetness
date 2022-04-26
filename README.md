@@ -71,10 +71,17 @@ The mechanism for these trends likely needs more exploration but the obvious exp
 ## References
 
 [1] G. Hugelius et al., “Estimated stocks of circumpolar permafrost carbon with quantified uncertainty ranges and identified data gaps,” Biogeosciences, vol. 11, no. 23, pp. 6573–6593, Dec. 2014, doi: 10.5194/BG-11-6573-2014.
+
 [2] E. A. G. Schuur et al., “Climate change and the permafrost carbon feedback,” Nat. 2015 5207546, vol. 520, no. 7546, pp. 171–179, Apr. 2015, doi: 10.1038/nature14338.
+
 [3] T. P. Wellman, C. I. Voss, and M. A. Walvoord, “Impacts of climate, lake size, and supra- and sub-permafrost groundwater flow on lake-talik evolution, Yukon Flats, Alaska (USA),” Hydrogeol. J., vol. 21, no. 1, pp. 281–298, Feb. 2013, doi: 10.1007/S10040-012-0941-4/FIGURES/5.
+
 [4] D. M. Lawrence, C. D. Koven, S. C. Swenson, W. J. Riley, and A. G. Slater, “Permafrost thaw and resulting soil moisture changes regulate projected high-latitude CO 2 and CH 4 emissions,” Environ. Res. Lett, vol. 10, p. 94011, 2015, doi: 10.1088/1748-9326/10/9/094011.
+
 [5] J. van Huissteden, “The Energy Balance of Permafrost Soils and Ecosystems,” Thawing Permafr., pp. 51–106, 2020, doi: 10.1007/978-3-030-31379-1_2.
+
 [6] R. J. Kauth and G. S. Thomas, “Purdue e-Pubs The Tasselled Cap-A Graphic Description of the Spectral-Temporal Development of Agricultural Crops as Seen by LANDSAT,” 1976, Accessed: Apr. 25, 2022. [Online]. Available: http://docs.lib.purdue.edu/lars_symphttp://docs.lib.purdue.edu/lars_symp/159.
+
 [7] E. P. Crist and R. C. Cicone, “A Physically-Based Transformation of Thematic Mapper Data—The TM Tasseled Cap,” IEEE Trans. Geosci. Remote Sens., vol. GE-22, no. 3, pp. 256–263, 1984, doi: 10.1109/TGRS.1984.350619.
+
 [8] M. H. A. Baig, L. Zhang, T. Shuai, and Q. Tong, “Derivation of a tasselled cap transformation based on Landsat 8 at-satellite reflectance,” Remote Sens. Lett., vol. 5, no. 5, pp. 423–431, May 2014, doi: 10.1080/2150704X.2014.915434.
