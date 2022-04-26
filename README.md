@@ -66,7 +66,7 @@ _Site B: Landsat 8 -- 2013 to 2022_
 
 ### Conclusions
 
-The mechanism for these trends likely needs more explanation but it the obvious explanation is that the increase permafrost thaw near the surface increases how saturated the soil is and increases the amount of area covered by water (more water filled troughs). It’s less clear how the drying trends arise. It’s possible that significant permafrost thaw allows has allowed more shrubby vegetation to grow, blocking the view of the surface beneath it. It’s also possible that enough thaw has occurred to allow water to drain downwards more freely. Regardless of the specific mechanism, the correlation between these wettening trends and visible permafrost is intriguing and suggests this a promising method of monitoring permafrost from space and gauging changes in surface water content at a large scale.
+The mechanism for these trends likely needs more exploration but the obvious explanation for a positive trend is an increase permafrost thaw near the surface increases which increases the saturation of the soil and increases the amount of area covered by water. It’s less clear how the drying trends arise. It’s possible that significant permafrost thaw allows has allowed more shrubby vegetation to grow, blocking the view of the surface beneath it. It’s also possible that enough thaw has occurred to allow water to drain downwards more freely. Regardless of the specific mechanism, the correlation between these wettening trends and visible permafrost is intriguing and suggests this a promising method of monitoring permafrost from space and gauging changes in surface water content at a large scale.
 
 ## References
 
