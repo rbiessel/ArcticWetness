@@ -1,14 +1,20 @@
-# Forty Years of Satellite Imagery Reveal Wetness Changes in the Arctic
+# Forty Years of Satellite Imagery Reveal a Connection Between Wetness Changes in the Arctic and Permafrost Degradation
 
-The effects of a changing climate are evident across the globe. In particular though, the Arctic is seeing a vast and fast rise in temperature upwards of 3°C since the industrial revolution, according to the latest IPCC report. The implications for such a drastic warming shift in the arctic are obvious at first glance. Permafrost (ground that stays below freezing for at least two years) degradation is clearly visible in the form of vast reaches of polygonal terrain in the far north.
+The effects of a changing climate are evident across the globe. In particular though, the Arctic is seeing a vast and fast rise in temperature upwards of 3°C since the industrial revolution, according to the Intergovernmental Panel on Climate Change. The implications for such a drastic warming shift in the arctic are obvious at first glance. Permafrost (ground that stays below freezing for at least two years) degradation is clearly visible in the form of vast reaches of polygonal terrain in the far north.
 
-During the pleistocene, large wedges of ground ice formed in these arctic regions. Gradually growing, the ice pushes the ground apart, propagating upwards as more glacial sediment is deposited over top. Now, these ice wedges have switched from growth to thaw near the surface. The melt of ice has left depressions in the form of a web of polygons across much of the north slope. In some areas, this kind of permafrost degradation has advanced to a degree where many such polygons eventually sink far enough into the ground that the landscape turns into a dotted tapestry of thermokarst lakes.
+![Map of estimated warming accross the globe - IPCC 2022](https://github.com/rbiessel/ArcticWetness/blob/main/images/warming_IPCC2022.png?raw=true)
+_Map of warming accross the globe from the International Panel on Climate Change._
+
+During the pleistocene, large wedges of ground ice formed in these arctic regions. Gradually growing, the ice pushes the ground apart, propagating upwards as more glacial sediment is deposited over top. Now, these ice wedges have switched from growth to thaw near the surface. The melt of ice has left depressions in the form of a web of polygons across much of the north slope. In some instances, this kind of permafrost degradation has advanced to a degree where many such polygons eventually sink far enough into the ground that the landscape turns into a dotted tapestry of thermokarst lakes.
+
+![Permafrost high-center polygons](https://i0.wp.com/eos.org/wp-content/uploads/2022/01/permafrost-polygons.jpg?w=1200&ssl=1)
+_An example of ice-wedge polygons. Photo credit: Christian Andresen_
 
 This kind of permafrost thaw is not surprisingly terrible for any kind of infrastructure, but what’s less obvious and less well understood is permafrost thaw’s more far-reaching (and much less visible) consequences. While these ice wedges have been forming and the collecting sediment, this kind of soil has also been collecting remains of plants and other organic matter. In other words, the arctic permafrost is generally a carbon sink. With new thaw of permafrost however, this previously stored carbon is at risk of returning to the atmosphere in the form of greenhouse gasses like carbon dioxide and methane. In fact, according to [1], [2] arctic permafrost contains up to 1/3 of the globe’s soil carbon.
 
 With the concern of accelerated greenhouse gas emission by thawing permafrost, it is increasingly advantageous to gauge where and how much permafrost may be thawing. How does water and “wetness” factor into this though? In addition to permafrost being closely coupled with the carbon cycle, it’s also closely coupled with the water cycle. First, thaw of ice-rich permafrost is going to release water. This top-down thaw then preferentially increases the water content near the surface and prevents water from draining. For this reason, the polygons formed by thawing ice-wedges tend to collect water. If this water collects enough, it also tends to increase the rate of thaw of adjacent and lower permafrost; thermokarst lakes further accelerate thaw [3]. In addition, an change in moisture is an important parameter for adjacent processes, like the decomposition of the stored carbon (the process that actually releases carbon in gas form) [4] and how much heat is actually absorbed by the ground instead of being used to evaporate water [5].
 
-This only a brief snapshot of how wetness may be of interest to climate research at large. In this analysis, I try and relate changes in wetness to surface expressions of permafrost. In other words, can satellite imagery help identify the most at-risk parts of the northern tundra? The rest of this blog explores a 40-year dataset of Landsat imagery to answer this question. In short, this study says yes, it appears that we can identify the areas where the surface is getting both wetter and drier, and where existing permafrost degradation is expanding. The resulting moisture trends tend to correlate strongly with visible permafrost features.
+This only a brief snapshot of how wetness may be of interest to climate research at large. In this analysis, I try and relate changes in wetness to surface expressions of permafrost. In other words, can satellite imagery help identify the most at-risk parts of the northern tundra? The rest of this blog explores a 40-year dataset of Landsat imagery to answer this question. In short, this study suggests yes -- it appears that we can identify the areas where the surface is getting both wetter and drier, and where existing permafrost degradation is expanding. The resulting moisture trends tend to correlate strongly with visible permafrost features.
 
 ## Remotely Sensed Observations: Landsat 5 and Landsat 8
 
@@ -36,10 +42,39 @@ The final estimates of wetness trend reveal quite interesting patterns regarding
 
 In this first site, a variety of permafrost features are visible. A beaded stream cuts across the image from the northeast to the southwest. On either side are more streams and tundra that appears to have streaks in it which suggest they experience frequent water flow. Furthermore, some of these hydrologic features show evidence of permafrost degradation: a speckled pattern which on closer look are ice-wedge polygons. In both datasets, there is a clear relationship between higher magnitude wettening rate and this kind degraded tundra. Interestingly, in some of these regions, the trend switches from getting wetter to getting drier at the centers of the most degraded looking ground.
 
+![Site A Basemap](https://github.com/rbiessel/ArcticWetness/blob/main/images/siteA_bingAerial.jpg?raw=true)
+_Site A: Base imagery (Bing Aerial Basemap)_
+
+![Landsat 5 derived wetness trends](https://github.com/rbiessel/ArcticWetness/blob/main/images/siteA_LS5toa.jpg?raw=true)
+_Site A: Landsat 5 -- 1984 to 2013_
+
+![Landsat 8 derived wetness trends.](https://github.com/rbiessel/ArcticWetness/blob/main/images/site_A_ls8TOA.jpg?raw=true)
+_Site A: Landsat 8 -- 2013 to 2022_
+
 ### Site B
 
 This second site is especially interesting because in 2007, a fire burned the southern half of this scene. This boundary is extremely obvious in the Landsat 5 wetness rate where the magnitudes are highest. Once again, these regions also coincide with highly polygonal terrain. In the Landsat 8 dataset, the wettening trends tend to switch from the flatter polygonal terrain to the adjacent hillsides and the edges of the thermokarst lakes. In addition, the more obviously degraded tundra has switched to a drying trend.
 
+![Site B Basemap](https://github.com/rbiessel/ArcticWetness/blob/main/images/siteC_basemapjpg.jpg?raw=true)
+_Site A: Landsat 8 -- 2013 to 2022_
+
+![Site B Landsat 5 derived wetness trends](https://github.com/rbiessel/ArcticWetness/blob/main/images/siteC_LS5_TOA.jpg?raw=true)
+_Site B: Landsat 5 -- 1984 to 2013_
+
+![Site B Landsat 8 derived wetness trends](https://github.com/rbiessel/ArcticWetness/blob/main/images/siteC_LS8_TOA.jpg?raw=true)
+_Site B: Landsat 8 -- 2013 to 2022_
+
 ### Conclusions
 
 The mechanism for these trends likely needs more explanation but it the obvious explanation is that the increase permafrost thaw near the surface increases how saturated the soil is and increases the amount of area covered by water (more water filled troughs). It’s less clear how the drying trends arise. It’s possible that significant permafrost thaw allows has allowed more shrubby vegetation to grow, blocking the view of the surface beneath it. It’s also possible that enough thaw has occurred to allow water to drain downwards more freely. Regardless of the specific mechanism, the correlation between these wettening trends and visible permafrost is intriguing and suggests this a promising method of monitoring permafrost from space and gauging changes in surface water content at a large scale.
+
+## References
+
+[1] G. Hugelius et al., “Estimated stocks of circumpolar permafrost carbon with quantified uncertainty ranges and identified data gaps,” Biogeosciences, vol. 11, no. 23, pp. 6573–6593, Dec. 2014, doi: 10.5194/BG-11-6573-2014.
+[2] E. A. G. Schuur et al., “Climate change and the permafrost carbon feedback,” Nat. 2015 5207546, vol. 520, no. 7546, pp. 171–179, Apr. 2015, doi: 10.1038/nature14338.
+[3] T. P. Wellman, C. I. Voss, and M. A. Walvoord, “Impacts of climate, lake size, and supra- and sub-permafrost groundwater flow on lake-talik evolution, Yukon Flats, Alaska (USA),” Hydrogeol. J., vol. 21, no. 1, pp. 281–298, Feb. 2013, doi: 10.1007/S10040-012-0941-4/FIGURES/5.
+[4] D. M. Lawrence, C. D. Koven, S. C. Swenson, W. J. Riley, and A. G. Slater, “Permafrost thaw and resulting soil moisture changes regulate projected high-latitude CO 2 and CH 4 emissions,” Environ. Res. Lett, vol. 10, p. 94011, 2015, doi: 10.1088/1748-9326/10/9/094011.
+[5] J. van Huissteden, “The Energy Balance of Permafrost Soils and Ecosystems,” Thawing Permafr., pp. 51–106, 2020, doi: 10.1007/978-3-030-31379-1_2.
+[6] R. J. Kauth and G. S. Thomas, “Purdue e-Pubs The Tasselled Cap-A Graphic Description of the Spectral-Temporal Development of Agricultural Crops as Seen by LANDSAT,” 1976, Accessed: Apr. 25, 2022. [Online]. Available: http://docs.lib.purdue.edu/lars_symphttp://docs.lib.purdue.edu/lars_symp/159.
+[7] E. P. Crist and R. C. Cicone, “A Physically-Based Transformation of Thematic Mapper Data—The TM Tasseled Cap,” IEEE Trans. Geosci. Remote Sens., vol. GE-22, no. 3, pp. 256–263, 1984, doi: 10.1109/TGRS.1984.350619.
+[8] M. H. A. Baig, L. Zhang, T. Shuai, and Q. Tong, “Derivation of a tasselled cap transformation based on Landsat 8 at-satellite reflectance,” Remote Sens. Lett., vol. 5, no. 5, pp. 423–431, May 2014, doi: 10.1080/2150704X.2014.915434.
