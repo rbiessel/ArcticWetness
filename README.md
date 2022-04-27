@@ -22,15 +22,15 @@ Landsat is a series of NASA satellites equipped with multispectral imagers. Thes
 
 Landsat 5 collected imagery between 1984 and 2013 while Landsat 8 has collected imagery from 2013 to the present. This equates to about 40 years of data that went into this analysis. The challenging part of this kind of imaging of the arctic, however, is frequent cloud cover. To avoid snow-covered ground, I only included images acquired between June 15th and August 15th. Now-adays, this kind of use of remotely sensed imagery is incredibly easy with Google Earth Engine, which can handle large volumes of data without needing to download it.
 
-## Cloud Masking
+### Cloud Masking
 
 Clouds represent a significant barrier to optical remote sensing in the arctic. To reduce their impact, I used the quality assurance information included with these images to perform a pixel-by-pixel mask of clouds and their shadows. This mask is not perfect, however, and this quality assurance pixel provided with the image does not identify more transparent clouds.
 
-## "Wetness" and the Tasseled Cap Transformation
+### "Wetness" and the Tasseled Cap Transformation
 
 The tasseled cap transformation dates to 1976 with the first Landsat satellite [7]. It represents a series of weights that are used to transform the observed reflectance at each spectral (blue, red, green, infrared, etc.) band to a new reference frame that conveys more physical meaning and allows for much easier interpretation of the data. This kind of transformation condenses the information across the red, green, blue, and infrared observations into bands that describe “brightness”, “greenness”, and “wetness”. Numerous papers have been published deriving these weights for various platforms. In this study, I used weights derived by Crist & Cicone [8], for the Landsat 5 data and Baig et al [9] for Landsat 8 data and focus on the ”wetness” metric.
 
-## Estimating Rates of Change
+### Estimating Rates of Change
 
 Having generated a wetness time-series, I now wanted to quantify how that metric has changed, pixel-by-pixel, for both Landsat 5 and Landsat 8 data. Because these two platforms have different sets of tasseled cap coefficients and different ranges, I separated the time-series and sought to estimate two separate rates for these two time-periods. As I mentioned earlier, the cloud mask didn’t perform perfect, which left residual transparent clouds. These clouds appear as anomalously high regions of wetness, and these have the potential to severely bias the rate estimates. The most common form of linear regression, least squares, suffered significantly from this bias. I chose then to fit a line to this data using a Theil-Sen estimator. This kind of regression is much less sensitive to outliers and works by computing the slopes between every pair of points, and then selecting the median.
 
